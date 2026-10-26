@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">Decibell</string>
+
+    <!-- Status & Top Bar -->
+    <string name="status_press_eq_to_activate">EQスイッチをオンにして有効化</string>
+    <string name="status_active_session_format">セッション #%1$d (%2$s) で有効</string>
+    <string name="status_active_global_mix">グローバル出力ミックス (Session 0) で有効</string>
+    <string name="status_engine_error_format">オーディオエンジンエラー: %1$s</string>
+    <string name="status_api_unsupported">DynamicsProcessingにはAndroid 9 (API 28) 以降が必要です</string>
+
+    <string name="label_eq_on">EQ On</string>
+    <string name="label_config">構成:</string>
+    <string name="label_channels">チャンネル:</string>
+    <string name="channel_joined">連動</string>
+    <string name="channel_separate">独立</string>
+    <string name="channel_left">左 (L)</string>
+    <string name="channel_right">右 (R)</string>
+    <string name="channel_single">シングル</string>
+    <string name="channel_dual">デュアル</string>
+
+    <!-- Second Row: Preset & Actions -->
+    <string name="label_preset">プリセット:</string>
+    <string name="action_save">保存</string>
+    <string name="action_save_modified">保存*</string>
+    <string name="action_delete">削除</string>
+    <string name="action_close">閉じる</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_confirm">確認</string>
+    <string name="action_reset_flat">フラットに戻す</string>
+    <string name="action_edit_hz_config">EQ周波数設定 (Hz)</string>
+    <string name="cd_settings">設定を開く</string>
+    <string name="cd_info">詳細情報</string>
+    <string name="cd_close">閉じる</string>
+
+    <!-- Units & Scale Labels -->
+    <string name="unit_db">(dB)</string>
+    <string name="unit_hz">(Hz)</string>
+    <string name="value_db_format">%1$.1f dB</string>
+    <string name="value_db_int_format">%1$d dB</string>
+    <string name="value_ms_format">%1$d ms</string>
+    <string name="value_percent_format">%1$d %%</string>
+    <string name="value_ratio_format">%1$.1f:1</string>
+    <string name="value_hz_rate_format">%1$.1f Hz</string>
+    <string name="value_off">Off</string>
+    <string name="scale_plus_15">+15</string>
+    <string name="scale_zero">0</string>
+    <string name="scale_minus_15">-15</string>
+    <string name="scale_minus_15_db">-15 dB</string>
+    <string name="scale_plus_15_db">+15 dB</string>
+    <string name="scale_plus_format">+%1$d</string>
+    <string name="scale_minus_format">-%1$d</string>
+    <string name="scale_plus_db_format">+%1$d dB</string>
+    <string name="scale_minus_db_format">-%1$d dB</string>
+    <string name="scale_left_short">L</string>
+    <string name="scale_right_short">R</string>
+
+    <!-- Custom dB Range Dialog -->
+    <string name="title_db_range_config">EQ ゲイン範囲 (dB)</string>
+    <string name="desc_db_range_config">最大ブースト/カット範囲をdB単位で設定します (5〜40 dB、標準15 dB)。15 dBを超える値はPre-EQとPost-EQに自動配分されます。</string>
+    <string name="hint_db_range_value">最大 dB (5 - 40)</string>
+    <string name="msg_db_range_updated">ゲイン範囲を +/- %1$d dB に設定しました</string>
+    <string name="err_invalid_db_range">5〜40 dBの範囲で入力してください</string>
+
+    <!-- Main Parameter Card -->
+    <string name="label_size">サイズ:</string>
+    <string name="size_small">小</string>
+    <string name="size_medium">中</string>
+    <string name="size_large">大</string>
+    <string name="label_visualizer">ビジュアライザー</string>
+    <string name="label_pre_gain">プリアンプ</string>
+    <string name="label_balance">バランス</string>
+    <string name="label_output">出力音量</string>
+
+    <!-- Effects Panel -->
+    <string name="label_effects">エフェクト</string>
+    <string name="label_reverb">リバーブ:</string>
+    <string name="label_bass_boost">バスブースト</string>
+    <string name="label_3d_sound">3Dサウンド</string>
+    <string name="label_auto_pan">オートパン</string>
+    <string name="label_multiband_compressor">マルチバンドコンプレッサー</string>
+    <string name="label_limiter">リミッター</string>
+    <string name="label_attack_time">アタック時間</string>
+    <string name="label_release_time">リリース時間</string>
+    <string name="label_ratio">レシオ</string>
+    <string name="label_threshold">スレッショルド</string>
+    <string name="label_post_gain">ポストゲイン</string>
+
+    <!-- Reverb Presets -->
+    <string name="reverb_none">なし</string>
+    <string name="reverb_small_room">スモールルーム</string>
+    <string name="reverb_medium_room">ミディアムルーム</string>
+    <string name="reverb_large_room">ラージルーム</string>
+    <string name="reverb_medium_hall">ミディアムホール</string>
+    <string name="reverb_large_hall">ラージホール</string>
+    <string name="reverb_plate">プレート</string>
+
+    <!-- Multi-band Compressor Presets -->
+    <string name="mbc_speaker_bass_guard">スピーカー低音保護</string>
+    <string name="mbc_vocal_presence">ボーカル明瞭化</string>
+    <string name="mbc_warm_broadcast">ウォームブロードキャスト</string>
+    <string name="mbc_gentle_master">ジェントルマスター</string>
+    <string name="mbc_punchy_dynamics">パンチーダイナミクス</string>
+
+    <!-- Built-in EQ Presets -->
+    <string name="preset_flat">フラット</string>
+    <string name="preset_custom">カスタム</string>
+    <string name="preset_bass_boost">低音強調</string>
+    <string name="preset_acoustic">アコースティック</string>
+    <string name="preset_classical">クラシック</string>
+    <string name="preset_dance">ダンス</string>
+    <string name="preset_electronic">エレクトロニック</string>
+    <string name="preset_hip_hop">ヒップホップ</string>
+    <string name="preset_jazz">ジャズ</string>
+    <string name="preset_pop">ポップ</string>
+    <string name="preset_rock">ロック</string>
+    <string name="preset_treble">高音強調</string>
+    <string name="preset_vocal">ボーカル</string>
+
+    <!-- EQ Config (Hz) Dialog -->
+    <string name="title_eq_config_hz">EQ 周波数設定 (Hz)</string>
+    <string name="label_nr_of_bands">バンド数:</string>
+    <string name="desc_cutoff_frequency">各バンドはカットオフ周波数で調整されます。バンド1は0〜100 Hzの範囲を担当します。</string>
+    <string name="col_nr">番号</string>
+    <string name="col_hz">Hz</string>
+    <string name="label_config_name_hint">設定名</string>
+    <string name="config_default_format">%1$d バンド標準</string>
+    <string name="config_new_custom">新規カスタム設定</string>
+
+    <!-- Save & Delete Preset Dialogs -->
+    <string name="title_save_preset">プリセットの保存</string>
+    <string name="desc_save_preset">このイコライザー設定のプリセット名を入力してください。</string>
+    <string name="hint_preset_name">プリセット名</string>
+    <string name="title_delete_preset">プリセットの削除</string>
+    <string name="desc_delete_preset">選択したカスタムプリセットを削除してもよろしいですか？</string>
+    <string name="title_delete_config">周波数設定の削除</string>
+    <string name="desc_delete_config">このカスタム周波数設定を削除してもよろしいですか？</string>
+
+    <!-- Info Dialog Descriptions -->
+    <string name="info_title_size">スライダーサイズ</string>
+    <string name="info_desc_size">イコライザーの縦幅を変更し、より細かいゲイン調整を可能にします。</string>
+    <string name="info_title_visualizer">スペクトラムビジュアライザー</string>
+    <string name="info_desc_visualizer">再生中のセッションからリアルタイムFFTスペクトラムを取得します。Android仕様により録音権限が必要です。</string>
+    <string name="info_title_bass_boost">バスブースト</string>
+    <string name="info_desc_bass_boost">ハードウェアエフェクトにより低音域を増強します。</string>
+    <string name="info_title_3d_sound">3Dサウンド</string>
+    <string name="info_desc_3d_sound">ステレオの広がりと空間表現を拡張します。</string>
+    <string name="info_title_auto_pan">ステレオオートパン</string>
+    <string name="info_desc_auto_pan">左右チャンネルのプリアンプゲインを周期的に変調します。</string>
+    <string name="info_title_mbc">マルチバンドコンプレッサー</string>
+    <string name="info_desc_mbc">周波数帯域ごとにダイナミックレンジを圧縮し、スピーカーの音割れを防ぎます。</string>
+    <string name="info_title_limiter">出力リミッター</string>
+    <string name="info_desc_limiter">最終段でスレッショルドを超えるピークを制限し、クリッピングを防止します。</string>
+    <string name="info_title_eq_config">カットオフ周波数設定</string>
+    <string name="info_desc_eq_config">DynamicsProcessingの各バンド上限周波数(Hz)を定義します(20 Hz〜20000 Hzの昇順)。スライダー中心周波数 = (下限 + 上限) / 2。計算式: カットオフ = (2 x 目標Hz) - 前のカットオフ。</string>
+    <string name="desc_cutoff_formula">計算式: カットオフ = (2 x 目標Hz) - 前のカットオフ (例: 0から目標60 Hz -> 120を入力)。</string>
+    <string name="col_center_preview">スライダーHz</string>
+    <string name="format_center_single">%1$d Hz (%2$d-%3$d)</string>
+    <string name="format_center_dual">L:%1$d / R:%2$d Hz</string>
+
+    <!-- Permission Rationale Dialog -->
+    <string name="title_permission_visualizer">オーディオ取得権限</string>
+    <string name="desc_permission_visualizer">Androidの仕様上、FFTスペクトラム表示にはRECORD_AUDIO権限が必要です。イコライザー処理自体は権限なしで動作します。</string>
+    <string name="action_grant_permission">許可する</string>
+
+    <!-- Settings & Session Sheet -->
+    <string name="title_settings">設定</string>
+    <string name="section_general">一般</string>
+    <string name="section_audio_session">オーディオルートとセッション</string>
+    <string name="section_backup">プリセットバックアップ (JSON)</string>
+    <string name="label_language">言語</string>
+    <string name="lang_system">システム標準</string>
+    <string name="lang_english">English</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_japanese">日本語</string>
+    <string name="label_global_mix_fallback">グローバル出力ミックス (Session 0) を使用</string>
+    <string name="desc_global_mix_fallback">個別のプレーヤーセッションが検出されない場合、システム全体の出力を処理します。</string>
+    <string name="label_active_sessions">検出されたプレーヤーセッション</string>
+    <string name="desc_no_player_sessions">外部プレーヤーのセッションがまだ検出されていません。SpotifyやYouTube Musicなどで再生を開始してください。</string>
+    <string name="action_export_json">プリセットと設定をJSONに書き出す</string>
+    <string name="action_import_json">JSONからプリセットと設定を読み込む</string>
+
+    <!-- Verified Feedback Messages -->
+    <string name="msg_preset_saved">プリセットを保存・検証しました: %1$s</string>
+    <string name="msg_preset_deleted">プリセットを削除しました: %1$s</string>
+    <string name="msg_config_saved">周波数設定を保存しました: %1$s</string>
+    <string name="msg_config_deleted">周波数設定を削除しました</string>
+    <string name="msg_export_verified">書き出し完了・検証済み (%1$d バイト)</string>
+    <string name="msg_import_verified">%1$d 個のプリセットと %2$d 個の設定を読み込みました</string>
+    <string name="err_invalid_name">名前を入力してください</string>
+    <string name="err_invalid_cutoff_order">カットオフ周波数は20 Hz〜20000 Hzの間で昇順にする必要があります</string>
+    <string name="err_export_failed">書き出し失敗: %1$s</string>
+    <string name="err_import_failed">読み込み失敗: %1$s</string>
+    <string name="err_visualizer_permission_denied">権限が拒否されたためビジュアライザーを無効にしました</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notif_channel_name">イコライザー動作状況</string>
+    <string name="notif_title_active">Decibell イコライザー有効</string>
+    <string name="notif_body_session">%1$dバンドEQ処理中 (%2$s)</string>
+</resources>

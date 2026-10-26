@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">Decibell</string>
+
+    <!-- Status & Top Bar -->
+    <string name="status_press_eq_to_activate">Tekan tombol EQ untuk mengaktifkan</string>
+    <string name="status_active_session_format">Aktif pada sesi #%1$d (%2$s)</string>
+    <string name="status_active_global_mix">Aktif pada bauran output global (Sesi 0)</string>
+    <string name="status_engine_error_format">Kesalahan mesin audio: %1$s</string>
+    <string name="status_api_unsupported">Membutuhkan Android 9 (API 28) atau lebih baru untuk DynamicsProcessing</string>
+
+    <string name="label_eq_on">EQ Aktif</string>
+    <string name="label_config">Konfigurasi:</string>
+    <string name="label_channels">Kanal:</string>
+    <string name="channel_joined">Gabung</string>
+    <string name="channel_separate">Terpisah</string>
+    <string name="channel_left">Kiri</string>
+    <string name="channel_right">Kanan</string>
+    <string name="channel_single">Tunggal</string>
+    <string name="channel_dual">Ganda</string>
+
+    <!-- Second Row: Preset & Actions -->
+    <string name="label_preset">Preset:</string>
+    <string name="action_save">SIMPAN</string>
+    <string name="action_save_modified">SIMPAN*</string>
+    <string name="action_delete">HAPUS</string>
+    <string name="action_close">TUTUP</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_confirm">Konfirmasi</string>
+    <string name="action_reset_flat">Reset Flat</string>
+    <string name="action_edit_hz_config">Atur EQ Config (Hz)</string>
+    <string name="cd_settings">Buka pengaturan</string>
+    <string name="cd_info">Informasi</string>
+    <string name="cd_close">Tutup dialog</string>
+
+    <!-- Units & Scale Labels -->
+    <string name="unit_db">(dB)</string>
+    <string name="unit_hz">(Hz)</string>
+    <string name="value_db_format">%1$.1f dB</string>
+    <string name="value_db_int_format">%1$d dB</string>
+    <string name="value_ms_format">%1$d ms</string>
+    <string name="value_percent_format">%1$d %%</string>
+    <string name="value_ratio_format">%1$.1f:1</string>
+    <string name="value_hz_rate_format">%1$.1f Hz</string>
+    <string name="value_off">Off</string>
+    <string name="scale_plus_15">+15</string>
+    <string name="scale_zero">0</string>
+    <string name="scale_minus_15">-15</string>
+    <string name="scale_minus_15_db">-15 dB</string>
+    <string name="scale_plus_15_db">+15 dB</string>
+    <string name="scale_plus_format">+%1$d</string>
+    <string name="scale_minus_format">-%1$d</string>
+    <string name="scale_plus_db_format">+%1$d dB</string>
+    <string name="scale_minus_db_format">-%1$d dB</string>
+    <string name="scale_left_short">L</string>
+    <string name="scale_right_short">R</string>
+
+    <!-- Custom dB Range Dialog -->
+    <string name="title_db_range_config">Rentang Gain EQ (dB)</string>
+    <string name="desc_db_range_config">Atur batas maksimum boost dan cut dalam dB (5 s/d 40 dB, bawaan 15 dB). Nilai di atas 15 dB dibagi otomatis ke tahap Pre-EQ dan Post-EQ.</string>
+    <string name="hint_db_range_value">Maks dB (5 - 40)</string>
+    <string name="msg_db_range_updated">Rentang gain diatur ke +/- %1$d dB</string>
+    <string name="err_invalid_db_range">Masukkan nilai antara 5 hingga 40 dB</string>
+
+    <!-- Main Parameter Card -->
+    <string name="label_size">Ukuran:</string>
+    <string name="size_small">Kecil</string>
+    <string name="size_medium">Sedang</string>
+    <string name="size_large">Besar</string>
+    <string name="label_visualizer">Visualizer</string>
+    <string name="label_pre_gain">Pre-gain</string>
+    <string name="label_balance">Keseimbangan</string>
+    <string name="label_output">Output</string>
+
+    <!-- Effects Panel -->
+    <string name="label_effects">Efek</string>
+    <string name="label_reverb">Reverb:</string>
+    <string name="label_bass_boost">Bass Boost</string>
+    <string name="label_3d_sound">Suara 3D</string>
+    <string name="label_auto_pan">Auto-pan</string>
+    <string name="label_multiband_compressor">Kompresor Multi-band</string>
+    <string name="label_limiter">Limiter</string>
+    <string name="label_attack_time">Waktu Attack</string>
+    <string name="label_release_time">Waktu Release</string>
+    <string name="label_ratio">Rasio</string>
+    <string name="label_threshold">Ambang Batas</string>
+    <string name="label_post_gain">Post-gain</string>
+
+    <!-- Reverb Presets -->
+    <string name="reverb_none">Tidak Ada</string>
+    <string name="reverb_small_room">Ruang Kecil</string>
+    <string name="reverb_medium_room">Ruang Sedang</string>
+    <string name="reverb_large_room">Ruang Besar</string>
+    <string name="reverb_medium_hall">Aula Sedang</string>
+    <string name="reverb_large_hall">Aula Besar</string>
+    <string name="reverb_plate">Pelat</string>
+
+    <!-- Multi-band Compressor Presets -->
+    <string name="mbc_speaker_bass_guard">Pelindung Bass Speaker</string>
+    <string name="mbc_vocal_presence">Kejernihan Vokal</string>
+    <string name="mbc_warm_broadcast">Siaran Hangat</string>
+    <string name="mbc_gentle_master">Master Halus</string>
+    <string name="mbc_punchy_dynamics">Dinamika Bertenaga</string>
+
+    <!-- Built-in EQ Presets -->
+    <string name="preset_flat">Datar (Flat)</string>
+    <string name="preset_custom">Kustom</string>
+    <string name="preset_bass_boost">Bass</string>
+    <string name="preset_acoustic">Akustik</string>
+    <string name="preset_classical">Klasik</string>
+    <string name="preset_dance">Dance</string>
+    <string name="preset_electronic">Elektronik</string>
+    <string name="preset_hip_hop">Hip-Hop</string>
+    <string name="preset_jazz">Jazz</string>
+    <string name="preset_pop">Pop</string>
+    <string name="preset_rock">Rock</string>
+    <string name="preset_treble">Treble</string>
+    <string name="preset_vocal">Vokal</string>
+
+    <!-- EQ Config (Hz) Dialog -->
+    <string name="title_eq_config_hz">Konfigurasi EQ (Hz)</string>
+    <string name="label_nr_of_bands">Jumlah Band:</string>
+    <string name="desc_cutoff_frequency">Band diatur berdasarkan frekuensi cut-off. Band 1 mencakup 0 hingga 100 Hz, dan seterusnya.</string>
+    <string name="col_nr">No</string>
+    <string name="col_hz">Hz</string>
+    <string name="label_config_name_hint">Nama konfigurasi</string>
+    <string name="config_default_format">%1$d Band Standar</string>
+    <string name="config_new_custom">Konfigurasi Kustom Baru</string>
+
+    <!-- Save & Delete Preset Dialogs -->
+    <string name="title_save_preset">Simpan Preset</string>
+    <string name="desc_save_preset">Masukkan nama untuk konfigurasi preset equalizer ini.</string>
+    <string name="hint_preset_name">Nama preset</string>
+    <string name="title_delete_preset">Hapus Preset</string>
+    <string name="desc_delete_preset">Yakin ingin menghapus preset kustom yang dipilih?</string>
+    <string name="title_delete_config">Hapus Konfigurasi Frekuensi</string>
+    <string name="desc_delete_config">Yakin ingin menghapus konfigurasi frekuensi kustom ini?</string>
+
+    <!-- Info Dialog Descriptions -->
+    <string name="info_title_size">Ukuran Slider</string>
+    <string name="info_desc_size">Mengatur tinggi vertikal jalur slider equalizer agar pengaturan gain lebih presisi.</string>
+    <string name="info_title_visualizer">Visualizer Spektrum</string>
+    <string name="info_desc_visualizer">Menangkap data frekuensi FFT waktu nyata dari sesi audio aktif. Membutuhkan izin mikrofon sesuai aturan Android Visualizer API.</string>
+    <string name="info_title_bass_boost">Bass Boost</string>
+    <string name="info_desc_bass_boost">Memperkuat respons frekuensi rendah melalui mesin efek audio perangkat.</string>
+    <string name="info_title_3d_sound">Virtualizer Suara 3D</string>
+    <string name="info_desc_3d_sound">Memperluas pemisahan stereo dan ruang panggung suara pada kanal kiri dan kanan.</string>
+    <string name="info_title_auto_pan">Auto-Pan Stereo</string>
+    <string name="info_desc_auto_pan">Memodulasi pre-gain kanal kiri dan kanan secara berkala sesuai frekuensi yang dipilih.</string>
+    <string name="info_title_mbc">Multi-band Compressor</string>
+    <string name="info_desc_mbc">Mengompresi rentang dinamis per pita frekuensi secara independen untuk mencegah distorsi speaker dan menyeimbangkan energi suara.</string>
+    <string name="info_title_limiter">Limiter Output</string>
+    <string name="info_desc_limiter">Mencegah kliping digital dengan menahan puncak sinyal di atas ambang batas pada tahap akhir DynamicsProcessing.</string>
+    <string name="info_title_eq_config">Konfigurasi Frekuensi Cut-off</string>
+    <string name="info_desc_eq_config">Menentukan batas frekuensi atas dalam Hz untuk setiap band pada DynamicsProcessing (20 Hz s/d 20000 Hz naik berurutan). Frekuensi tengah slider = (Cut-off Bawah + Cut-off Atas) / 2. Rumus mencari Cut-off: (2 x Target Hz) - Cut-off Sebelumnya.</string>
+    <string name="desc_cutoff_formula">Rumus: Cut-off = (2 x Target Hz) - Cut-off sebelumnya (Contoh: Target 60 Hz dari 0 -> isi 120).</string>
+    <string name="col_center_preview">Slider Hz</string>
+    <string name="format_center_single">%1$d Hz (%2$d-%3$d)</string>
+    <string name="format_center_dual">L:%1$d / R:%2$d Hz</string>
+
+    <!-- Permission Rationale Dialog -->
+    <string name="title_permission_visualizer">Izin Tangkapan Audio</string>
+    <string name="desc_permission_visualizer">Android mewajibkan izin RECORD_AUDIO untuk membaca spektrum FFT pada visualizer. Pemrosesan suara equalizer tetap berfungsi tanpa izin ini.</string>
+    <string name="action_grant_permission">Izinkan</string>
+
+    <!-- Settings & Session Sheet -->
+    <string name="title_settings">Pengaturan</string>
+    <string name="section_general">Umum</string>
+    <string name="section_audio_session">Rute &amp; Sesi Audio</string>
+    <string name="section_backup">Cadangan Preset (JSON)</string>
+    <string name="label_language">Bahasa</string>
+    <string name="lang_system">Bawaan Sistem</string>
+    <string name="lang_english">English</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_japanese">日本語</string>
+    <string name="label_global_mix_fallback">Pasang ke Bauran Output Global (Sesi 0)</string>
+    <string name="desc_global_mix_fallback">Memproses output audio sistem secara menyeluruh saat sesi pemutar spesifik tidak terdeteksi.</string>
+    <string name="label_active_sessions">Sesi Pemutar Terdeteksi</string>
+    <string name="desc_no_player_sessions">Belum ada siaran sesi pemutar eksternal. Putar musik di Spotify, YouTube Music, atau pemutar lain.</string>
+    <string name="action_export_json">Ekspor Preset &amp; Konfigurasi ke JSON</string>
+    <string name="action_import_json">Impor Preset &amp; Konfigurasi dari JSON</string>
+
+    <!-- Verified Feedback Messages -->
+    <string name="msg_preset_saved">Preset disimpan dan terverifikasi: %1$s</string>
+    <string name="msg_preset_deleted">Preset dihapus: %1$s</string>
+    <string name="msg_config_saved">Konfigurasi frekuensi disimpan: %1$s</string>
+    <string name="msg_config_deleted">Konfigurasi frekuensi dihapus</string>
+    <string name="msg_export_verified">Ekspor selesai dan terverifikasi (%1$d byte)</string>
+    <string name="msg_import_verified">Berhasil mengimpor %1$d preset dan %2$d konfigurasi</string>
+    <string name="err_invalid_name">Nama tidak boleh kosong</string>
+    <string name="err_invalid_cutoff_order">Frekuensi cut-off harus naik berurutan antara 20 Hz dan 20000 Hz</string>
+    <string name="err_export_failed">Ekspor gagal: %1$s</string>
+    <string name="err_import_failed">Impor gagal: %1$s</string>
+    <string name="err_visualizer_permission_denied">Visualizer dinonaktifkan karena izin audio ditolak</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notif_channel_name">Status Mesin Equalizer</string>
+    <string name="notif_title_active">Equalizer Decibell Aktif</string>
+    <string name="notif_body_session">Memproses %1$d-band EQ (%2$s)</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "Decibell",
+  "description": "Multi-band graphic equalizer and system audio dynamics processor for Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

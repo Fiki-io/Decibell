@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">Decibell</string>
+
+    <!-- Status & Top Bar -->
+    <string name="status_press_eq_to_activate">Presiona el interruptor EQ para activar</string>
+    <string name="status_active_session_format">Activo en sesión #%1$d (%2$s)</string>
+    <string name="status_active_global_mix">Activo en mezcla global (Sesión 0)</string>
+    <string name="status_engine_error_format">Error del motor de audio: %1$s</string>
+    <string name="status_api_unsupported">Requiere Android 9 (API 28) o superior para DynamicsProcessing</string>
+
+    <string name="label_eq_on">EQ On</string>
+    <string name="label_config">Config:</string>
+    <string name="label_channels">Canales:</string>
+    <string name="channel_joined">Unidos</string>
+    <string name="channel_separate">Separados</string>
+    <string name="channel_left">Izquierdo</string>
+    <string name="channel_right">Derecho</string>
+    <string name="channel_single">Simple</string>
+    <string name="channel_dual">Doble</string>
+
+    <!-- Second Row: Preset & Actions -->
+    <string name="label_preset">Ajuste:</string>
+    <string name="action_save">GUARDAR</string>
+    <string name="action_save_modified">GUARDAR*</string>
+    <string name="action_delete">ELIMINAR</string>
+    <string name="action_close">CERRAR</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_reset_flat">Restablecer Plano</string>
+    <string name="action_edit_hz_config">Configurar EQ (Hz)</string>
+    <string name="cd_settings">Abrir ajustes</string>
+    <string name="cd_info">Información</string>
+    <string name="cd_close">Cerrar diálogo</string>
+
+    <!-- Units & Scale Labels -->
+    <string name="unit_db">(dB)</string>
+    <string name="unit_hz">(Hz)</string>
+    <string name="value_db_format">%1$.1f dB</string>
+    <string name="value_db_int_format">%1$d dB</string>
+    <string name="value_ms_format">%1$d ms</string>
+    <string name="value_percent_format">%1$d %%</string>
+    <string name="value_ratio_format">%1$.1f:1</string>
+    <string name="value_hz_rate_format">%1$.1f Hz</string>
+    <string name="value_off">Off</string>
+    <string name="scale_plus_15">+15</string>
+    <string name="scale_zero">0</string>
+    <string name="scale_minus_15">-15</string>
+    <string name="scale_minus_15_db">-15 dB</string>
+    <string name="scale_plus_15_db">+15 dB</string>
+    <string name="scale_plus_format">+%1$d</string>
+    <string name="scale_minus_format">-%1$d</string>
+    <string name="scale_plus_db_format">+%1$d dB</string>
+    <string name="scale_minus_db_format">-%1$d dB</string>
+    <string name="scale_left_short">L</string>
+    <string name="scale_right_short">R</string>
+
+    <!-- Custom dB Range Dialog -->
+    <string name="title_db_range_config">Rango de ganancia EQ (dB)</string>
+    <string name="desc_db_range_config">Define el límite máximo en dB (5 a 40 dB, predeterminado 15 dB). Los valores superiores a 15 dB se distribuyen entre Pre-EQ y Post-EQ.</string>
+    <string name="hint_db_range_value">Máx. dB (5 - 40)</string>
+    <string name="msg_db_range_updated">Rango establecido en +/- %1$d dB</string>
+    <string name="err_invalid_db_range">Introduce un valor entre 5 y 40 dB</string>
+
+    <!-- Main Parameter Card -->
+    <string name="label_size">Tamaño:</string>
+    <string name="size_small">Pequeño</string>
+    <string name="size_medium">Mediano</string>
+    <string name="size_large">Grande</string>
+    <string name="label_visualizer">Visualizador</string>
+    <string name="label_pre_gain">Pre-ganancia</string>
+    <string name="label_balance">Balance</string>
+    <string name="label_output">Salida</string>
+
+    <!-- Effects Panel -->
+    <string name="label_effects">Efectos</string>
+    <string name="label_reverb">Reverb:</string>
+    <string name="label_bass_boost">Refuerzo de graves</string>
+    <string name="label_3d_sound">Sonido 3D</string>
+    <string name="label_auto_pan">Auto-pan</string>
+    <string name="label_multiband_compressor">Compresor multibanda</string>
+    <string name="label_limiter">Limitador</string>
+    <string name="label_attack_time">Tiempo de ataque</string>
+    <string name="label_release_time">Tiempo de liberación</string>
+    <string name="label_ratio">Relación</string>
+    <string name="label_threshold">Umbral</string>
+    <string name="label_post_gain">Post-ganancia</string>
+
+    <!-- Reverb Presets -->
+    <string name="reverb_none">Ninguno</string>
+    <string name="reverb_small_room">Sala pequeña</string>
+    <string name="reverb_medium_room">Sala mediana</string>
+    <string name="reverb_large_room">Sala grande</string>
+    <string name="reverb_medium_hall">Auditorio mediano</string>
+    <string name="reverb_large_hall">Auditorio grande</string>
+    <string name="reverb_plate">Placa</string>
+
+    <!-- Multi-band Compressor Presets -->
+    <string name="mbc_speaker_bass_guard">Speaker Bass Guard</string>
+    <string name="mbc_vocal_presence">Presencia vocal</string>
+    <string name="mbc_warm_broadcast">Transmisión cálida</string>
+    <string name="mbc_gentle_master">Master suave</string>
+    <string name="mbc_punchy_dynamics">Dinámica potente</string>
+
+    <!-- Built-in EQ Presets -->
+    <string name="preset_flat">Plano</string>
+    <string name="preset_custom">Personalizado</string>
+    <string name="preset_bass_boost">Graves</string>
+    <string name="preset_acoustic">Acústico</string>
+    <string name="preset_classical">Clásico</string>
+    <string name="preset_dance">Dance</string>
+    <string name="preset_electronic">Electrónica</string>
+    <string name="preset_hip_hop">Hip-Hop</string>
+    <string name="preset_jazz">Jazz</string>
+    <string name="preset_pop">Pop</string>
+    <string name="preset_rock">Rock</string>
+    <string name="preset_treble">Agudos</string>
+    <string name="preset_vocal">Vocal</string>
+
+    <!-- EQ Config (Hz) Dialog -->
+    <string name="title_eq_config_hz">EQ Config (Hz)</string>
+    <string name="label_nr_of_bands">N.º de bandas:</string>
+    <string name="desc_cutoff_frequency">Las bandas se ajustan por frecuencia de corte. La banda 1 abarca de 0 a 100 Hz, y así sucesivamente.</string>
+    <string name="col_nr">N.º</string>
+    <string name="col_hz">Hz</string>
+    <string name="label_config_name_hint">Nombre de configuración</string>
+    <string name="config_default_format">%1$d Bandas Estándar</string>
+    <string name="config_new_custom">Nueva configuración</string>
+
+    <!-- Save & Delete Preset Dialogs -->
+    <string name="title_save_preset">Guardar ajuste</string>
+    <string name="desc_save_preset">Introduce un nombre para este ajuste del ecualizador.</string>
+    <string name="hint_preset_name">Nombre del ajuste</string>
+    <string name="title_delete_preset">Eliminar ajuste</string>
+    <string name="desc_delete_preset">¿Seguro que deseas eliminar el ajuste personalizado seleccionado?</string>
+    <string name="title_delete_config">Eliminar configuración</string>
+    <string name="desc_delete_config">¿Seguro que deseas eliminar esta configuración de frecuencias?</string>
+
+    <!-- Info Dialog Descriptions -->
+    <string name="info_title_size">Tamaño del control</string>
+    <string name="info_desc_size">Ajusta la altura vertical de las bandas del ecualizador para un control más preciso.</string>
+    <string name="info_title_visualizer">Visualizador de espectro</string>
+    <string name="info_desc_visualizer">Captura datos de frecuencia FFT en tiempo real de la sesión activa. Requiere permiso de audio exigido por la API Visualizer de Android.</string>
+    <string name="info_title_bass_boost">Refuerzo de graves</string>
+    <string name="info_desc_bass_boost">Amplifica la respuesta de baja frecuencia mediante el motor de audio del dispositivo.</string>
+    <string name="info_title_3d_sound">Virtualizador 3D</string>
+    <string name="info_desc_3d_sound">Amplía la separación estéreo y el espacio acústico entre los canales.</string>
+    <string name="info_title_auto_pan">Auto-Pan estéreo</string>
+    <string name="info_desc_auto_pan">Modula periódicamente la ganancia de los canales izquierdo y derecho.</string>
+    <string name="info_title_mbc">Compresor multibanda</string>
+    <string name="info_desc_mbc">Comprime el rango dinámico por banda de frecuencia para evitar distorsión y equilibrar la energía tonal.</string>
+    <string name="info_title_limiter">Limitador de salida</string>
+    <string name="info_desc_limiter">Evita el recorte digital restringiendo los picos por encima del umbral en la etapa final.</string>
+    <string name="info_title_eq_config">Frecuencia de corte</string>
+    <string name="info_desc_eq_config">Define la frecuencia de corte superior en Hz para cada banda en DynamicsProcessing (20 Hz a 20000 Hz en orden ascendente). Frecuencia central = (Corte inferior + Corte superior) / 2. Fórmula: Corte = (2 x Hz Objetivo) - Corte anterior.</string>
+    <string name="desc_cutoff_formula">Fórmula: Corte = (2 x Hz Objetivo) - Corte anterior (Ej.: 60 Hz desde 0 -> ingrese 120).</string>
+    <string name="col_center_preview">Slider Hz</string>
+    <string name="format_center_single">%1$d Hz (%2$d-%3$d)</string>
+    <string name="format_center_dual">L:%1$d / R:%2$d Hz</string>
+
+    <!-- Permission Rationale Dialog -->
+    <string name="title_permission_visualizer">Permiso de captura de audio</string>
+    <string name="desc_permission_visualizer">Android requiere el permiso RECORD_AUDIO para leer datos FFT en el visualizador. El ecualizador funciona sin este permiso.</string>
+    <string name="action_grant_permission">Permitir</string>
+
+    <!-- Settings & Session Sheet -->
+    <string name="title_settings">Ajustes</string>
+    <string name="section_general">General</string>
+    <string name="section_audio_session">Enrutamiento y sesiones de audio</string>
+    <string name="section_backup">Copia de seguridad (JSON)</string>
+    <string name="label_language">Idioma</string>
+    <string name="lang_system">Predeterminado del sistema</string>
+    <string name="lang_english">English</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_japanese">日本語</string>
+    <string name="label_global_mix_fallback">Vincular a mezcla global (Sesión 0)</string>
+    <string name="desc_global_mix_fallback">Procesa la salida global del sistema cuando no se detecta una sesión individual.</string>
+    <string name="label_active_sessions">Sesiones detectadas</string>
+    <string name="desc_no_player_sessions">Aún no se detectaron reproductores activos. Inicia reproducción en Spotify, YouTube Music u otro reproductor.</string>
+    <string name="action_export_json">Exportar ajustes a JSON</string>
+    <string name="action_import_json">Importar ajustes desde JSON</string>
+
+    <!-- Verified Feedback Messages -->
+    <string name="msg_preset_saved">Ajuste guardado y verificado: %1$s</string>
+    <string name="msg_preset_deleted">Ajuste eliminado: %1$s</string>
+    <string name="msg_config_saved">Configuración guardada: %1$s</string>
+    <string name="msg_config_deleted">Configuración eliminada</string>
+    <string name="msg_export_verified">Exportación verificada (%1$d bytes)</string>
+    <string name="msg_import_verified">Se importaron %1$d ajustes y %2$d configuraciones</string>
+    <string name="err_invalid_name">El nombre no puede estar vacío</string>
+    <string name="err_invalid_cutoff_order">Las frecuencias deben ascender estrictamente entre 20 Hz y 20000 Hz</string>
+    <string name="err_export_failed">Error al exportar: %1$s</string>
+    <string name="err_import_failed">Error al importar: %1$s</string>
+    <string name="err_visualizer_permission_denied">Visualizador desactivado por falta de permiso</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notif_channel_name">Estado del ecualizador</string>
+    <string name="notif_title_active">Ecualizador Decibell activo</string>
+    <string name="notif_body_session">Procesando EQ de %1$d bandas (%2$s)</string>
+</resources>
